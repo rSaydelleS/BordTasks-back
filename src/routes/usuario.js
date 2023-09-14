@@ -4,7 +4,7 @@ const conectarBancoDados = require('../Functions/tratarErrosEsperados')
 
 /* GET users listing. */
 users.get('/',conectarBancoDados, function(req, res, next) {
-  res.send('respond with a resource aaaaaaaaaa');
+  res.send('oi');
 });
 
 module.exports = users;

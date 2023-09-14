@@ -1,9 +1,6 @@
 function routes(app) {
-    app.use('/users', require('./routes/users.js'));
-    
-    app.use('/teste', require('./routes/teste.js'))
+    app.use('/usuario', require('./routes/usuario.js'));
     return;
 }
 
-
-module.exports = routes;  
+module.exports = routes;
